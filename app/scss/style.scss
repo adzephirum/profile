@@ -1,2 +1,8 @@
 @import "variables";
 @import "globals";
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
