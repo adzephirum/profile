@@ -24,4 +24,9 @@ body {
 .bgimg-bottom {
   position: absolute;
 }
+
+.bgimg-top {
+  bottom: 50%;
+  right: 50%;
+}
 /*# sourceMappingURL=style.css.map */
