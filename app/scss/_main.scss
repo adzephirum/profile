@@ -1,7 +1,10 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  // box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,6 +14,9 @@ body {
   line-height: 1.3;
   color: $greyBlue;
   background-color: $blueGreen;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
 }
 
 .main {

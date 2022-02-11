@@ -1,3 +1,10 @@
+.background {
+  height: auto;
+  max-height: 150%;
+  overflow: auto;
+  width: 100%;
+}
+
 .bgimg-top,
 .bgimg-bottom {
   position: absolute;
@@ -6,4 +13,9 @@
 .bgimg-top {
   bottom: 50%;
   right: 50%;
+}
+
+.bgimg-bottom {
+  top: 50%;
+  left: 50%;
 }
