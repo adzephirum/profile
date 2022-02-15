@@ -9,20 +9,13 @@ html {
 *::after {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Kumbh Sans", sans-serif;
   line-height: 1.3;
   color: #6a6f81;
   background-color: #19a2ae;
-  width: 100%;
-  overflow: hidden;
-  height: 100vh;
 }
 
 .background {
@@ -33,20 +26,27 @@ body {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+  overflow: hidden;
 }
 
-.bgimg-top,
-.bgimg-bottom {
-  position: absolute;
+.background .bgimg-top {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  justify-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
-.bgimg-top {
-  bottom: 50%;
-  right: 50%;
-}
-
-.bgimg-bottom {
-  top: 50%;
-  left: 50%;
+.background .bottom-bg {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
 }
 /*# sourceMappingURL=style.css.map */
