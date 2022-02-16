@@ -6,6 +6,10 @@
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
 
+  img {
+    overflow: hidden;
+  }
+
   .bgimg-top {
     grid-column: 1/2;
     grid-row: 1/2;

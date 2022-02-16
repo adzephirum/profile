@@ -29,6 +29,10 @@ body {
   overflow: hidden;
 }
 
+.background img {
+  overflow: hidden;
+}
+
 .background .bgimg-top {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
