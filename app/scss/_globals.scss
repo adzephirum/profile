@@ -1,3 +1,18 @@
+*,
+*::before,
+*::after {
+  // box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  line-height: 1.3;
+  color: $greyBlue;
+  background-color: $blueGreen;
+}
+
 html {
   font-size: 100%;
   box-sizing: border-box;
