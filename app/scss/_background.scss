@@ -23,4 +23,9 @@
 }
 
 @media (min-width: 1200px) {
+  .top-img,
+  .bottom-img {
+    width: 60%;
+    position: absolute;
+  }
 }
