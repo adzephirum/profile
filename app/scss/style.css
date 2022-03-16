@@ -18,6 +18,17 @@ html {
           box-sizing: border-box;
 }
 
+.box {
+  position: relative;
+  margin: 12px;
+  width: 350px;
+  height: 400px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .main {
   position: relative;
   -webkit-box-pack: center;
