@@ -10,4 +10,12 @@
   justify-content: space-between;
   border-radius: 20px;
   overflow: hidden;
+
+  .box__image {
+    background-position: center;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 53px;
+    border: 6px solid white;
+  }
 }
