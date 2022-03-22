@@ -59,6 +59,16 @@ html {
   overflow: hidden;
   border-radius: 53px;
   border: 6px solid white;
+  top: 85px;
+  width: 106px;
+  height: 106px;
+}
+
+.box .box__id {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 75px;
 }
 
 .box .box__footer {
