@@ -32,9 +32,6 @@ html {
 
 .box {
   position: relative;
-  margin: 12px;
-  width: 350px;
-  height: 400px;
   background: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -49,8 +46,12 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-radius: 20px;
+  margin: auto 1.5em;
+  width: 350px;
+  background-color: white;
+  border-radius: 1em;
   overflow: hidden;
+  z-index: 1;
 }
 
 .box .box__image {
