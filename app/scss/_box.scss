@@ -32,11 +32,12 @@
   .box__id {
     display: flex;
     margin-top: 75px;
-  }
 
-  .box__id {
-    display: flex;
-    margin-top: 75px;
+    .box__age {
+      padding-left: 8px;
+      font-weight: 400;
+      color: hsl(227, 10%, 46%);
+    }
   }
 
   .box__footer {

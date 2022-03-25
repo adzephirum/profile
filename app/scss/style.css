@@ -72,6 +72,12 @@ html {
   margin-top: 75px;
 }
 
+.box .box__id .box__age {
+  padding-left: 8px;
+  font-weight: 400;
+  color: #6a6f81;
+}
+
 .box .box__footer {
   padding: 30px;
   list-style: none;
