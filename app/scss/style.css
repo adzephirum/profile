@@ -78,6 +78,12 @@ html {
   color: #6a6f81;
 }
 
+.box .box__id .box__city {
+  margin-bottom: 30px;
+  color: #6a6f81;
+  font-size: 16px;
+}
+
 .box .box__footer {
   padding: 30px;
   list-style: none;
