@@ -17,6 +17,11 @@
     overflow: hidden;
   }
 
+  .box__id {
+    display: flex;
+    margin-top: 75px;
+  }
+
   .bgimg-top {
     grid-column: 1/2;
     grid-row: 1/2;
