@@ -33,8 +33,10 @@
     display: flex;
     margin-top: 75px;
 
-    font-size: 18px;
-    font-weight: 700;
+    .box__name {
+      font-size: 18px;
+      font-weight: 700;
+    }
 
     .box__age {
       padding-left: 8px;

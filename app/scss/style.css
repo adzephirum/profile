@@ -70,6 +70,9 @@ html {
   display: -ms-flexbox;
   display: flex;
   margin-top: 75px;
+}
+
+.box .box__id .box__name {
   font-size: 18px;
   font-weight: 700;
 }
