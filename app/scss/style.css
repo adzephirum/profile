@@ -116,6 +116,14 @@ html {
   margin: 0;
 }
 
+.box .box__footer p {
+  color: #6a6f81;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  margin: 0;
+}
+
 .main {
   position: relative;
   -webkit-box-pack: center;
