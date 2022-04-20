@@ -13,9 +13,9 @@
 
   .box__header {
     position: relative;
-    margin: 12px;
-    width: 350px;
-    height: 400px;
+    margin: 0.75rem;
+    width: 21.875rem;
+    height: 25rem;
     background: white;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -30,7 +30,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     overflow: hidden;
   }
 
