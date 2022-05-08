@@ -38,9 +38,6 @@ html {
   width: 21.875rem;
   height: 25rem;
   background: white;
-}
-
-.box .box__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,11 +55,28 @@ html {
   overflow: hidden;
 }
 
+.box .box__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+
 .box .box__image {
   background-position: center;
   position: absolute;
   overflow: hidden;
-  border-radius: 3.313rem;
+  border-radius: 50%;
   border: 0.375rem solid white;
   top: 5.313rem;
   width: 6.625rem;
