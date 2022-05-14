@@ -23,6 +23,12 @@
   border-radius: 1.25rem;
   overflow: hidden;
 
+  transition: 500ms linear;
+
+  .box:hover {
+    transform: scale(1.1);
+  }
+
   .box__header {
     display: flex;
     flex-direction: column;
