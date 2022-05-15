@@ -6,6 +6,10 @@
   justify-content: center;
 }
 
+.box:hover {
+  transform: scale(1.1);
+}
+
 .box {
   position: relative;
   margin: 0.75rem;
@@ -23,11 +27,7 @@
   border-radius: 1.25rem;
   overflow: hidden;
 
-  // transition: 500ms linear;
-
-  // .box:hover {
-  //   transform: scale(1.1);
-  // }
+  transition: 300ms linear;
 
   .box__header {
     display: flex;

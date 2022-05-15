@@ -32,6 +32,11 @@ html {
           justify-content: center;
 }
 
+.box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .box {
   position: relative;
   margin: 0.75rem;
@@ -53,6 +58,8 @@ html {
           justify-content: space-between;
   border-radius: 1.25rem;
   overflow: hidden;
+  -webkit-transition: 300ms linear;
+  transition: 300ms linear;
 }
 
 .box .box__header {
