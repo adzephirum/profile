@@ -27,6 +27,9 @@
   border-radius: 1.25rem;
   overflow: hidden;
 
+  // 0px 15px 20px 15px rgb(0 0 0 / 15%)
+  box-shadow: outset 0 0 5px rgba(0, 0, 0, 0.15);
+
   transition: 300ms linear;
 
   .box__header {
