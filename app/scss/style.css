@@ -58,8 +58,8 @@ html {
           justify-content: space-between;
   border-radius: 1.25rem;
   overflow: hidden;
-  -webkit-box-shadow: outset 0 0 5px rgba(0, 0, 0, 0.15);
-          box-shadow: outset 0 0 5px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
   -webkit-transition: 300ms linear;
   transition: 300ms linear;
 }
