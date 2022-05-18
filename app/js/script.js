@@ -18,3 +18,13 @@ counters.forEach((counter) => {
   };
   updateCount();
 });
+
+// let counts = setInterval(updated);
+// let upto = 0;
+// function updated() {
+//   var count = document.querySelectorAll(".count");
+//   count.innerHTML = ++upto;
+//   if (upto === 1000) {
+//     clearInterval(counts);
+//   }
+// }
