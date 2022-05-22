@@ -1,17 +1,17 @@
 .main {
-  position: relative;
-  justify-content: center;
-  position: absolute;
+  // position: relative;
+  // justify-content: center;
+  // position: absolute;
 }
 
 .background {
   position: absolute;
-  justify-content: center;
+  // justify-content: center;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  // grid-template-columns: 1fr 1fr;
 
   img {
     overflow: hidden;
@@ -22,16 +22,28 @@
     margin-top: 4.688rem;
   }
 
-  .bgimg-top {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    justify-self: flex-end;
-    align-self: flex-end;
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
-  .bottom-bg {
-    grid-column: 2/3;
-    grid-row: 2/3;
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .bgimg-top {
+    justify-self: flex-start;
+    align-self: flex-start;
+  }
+
+  .bgimg-bottom {
+    justify-self: flex-end;
+    align-self: flex-end;
   }
 }
 
