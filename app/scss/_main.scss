@@ -10,8 +10,12 @@
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  display: grid;
+  // display: grid;
   // grid-template-columns: 1fr 1fr;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   img {
     overflow: hidden;
