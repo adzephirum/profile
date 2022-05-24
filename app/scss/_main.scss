@@ -7,48 +7,48 @@
 .background {
   position: absolute;
   // justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
+  // height: 100vh;
+  // width: 100vw;
+  // overflow: hidden;
   // display: grid;
   // grid-template-columns: 1fr 1fr;
 
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+
+  // img {
+  //   overflow: hidden;
+  // }
+}
+
+.box__id {
   display: flex;
+  margin-top: 4.688rem;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  width: 100%;
+}
 
-  img {
-    overflow: hidden;
-  }
+.row2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
-  .box__id {
-    display: flex;
-    margin-top: 4.688rem;
-  }
+.bgimg-top {
+  justify-self: flex-start;
+  align-self: flex-start;
+}
 
-  .row1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .row2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .bgimg-top {
-    justify-self: flex-start;
-    align-self: flex-start;
-  }
-
-  .bgimg-bottom {
-    justify-self: flex-end;
-    align-self: flex-end;
-  }
+.bgimg-bottom {
+  justify-self: flex-end;
+  align-self: flex-end;
 }
 
 // min-width: 1200px
