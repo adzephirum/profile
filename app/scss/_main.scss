@@ -53,6 +53,7 @@
 .bgimg-top {
   top: -300px;
   left: -175px;
+  transform: translate(-100px, -50px);
   // justify-self: flex-start;
   // align-self: flex-start;
 }
@@ -60,6 +61,7 @@
 .bgimg-bottom {
   bottom: -300px;
   right: -175px;
+  transform: translate(-100px, -50px);
   // justify-self: flex-end;
   // align-self: flex-end;
 }
