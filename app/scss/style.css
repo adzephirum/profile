@@ -191,4 +191,8 @@ html {
             transform: translate(0);
   }
 }
+
+.attribution {
+  position: absolute;
+}
 /*# sourceMappingURL=style.css.map */
