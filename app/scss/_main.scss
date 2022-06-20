@@ -103,3 +103,7 @@
   width: 100%;
   transform: translateY(100%);
 }
+
+.attribution:before {
+  content: "";
+}
