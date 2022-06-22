@@ -102,6 +102,10 @@
   left: 0;
   width: 100%;
   transform: translateY(100%);
+  transition: 0.4s;
+}
+
+.attribution:hover {
 }
 
 .attribution:before {
