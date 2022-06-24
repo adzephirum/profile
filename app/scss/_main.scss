@@ -103,6 +103,9 @@
   width: 100%;
   transform: translateY(100%);
   transition: 0.4s;
+  padding: 20px;
+  background: white;
+  text-align: center;
 }
 
 .attribution:hover {
@@ -111,7 +114,7 @@
 
 .attribution:before {
   content: "";
-  background: grey;
+  // background: grey;
   width: 100%;
   height: 50px;
   position: absolute;
