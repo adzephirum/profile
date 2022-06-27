@@ -97,6 +97,7 @@
 // }
 
 .attribution {
+  overflow: hidden;
   position: absolute;
   bottom: o;
   left: 0;
@@ -114,7 +115,6 @@
 
 .attribution:before {
   content: "";
-  // background: rgba(226, 226, 226, 10%);
   width: 100%;
   height: 50px;
   position: absolute;
