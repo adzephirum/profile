@@ -139,7 +139,7 @@ html {
   margin: 0;
 }
 
-.background {
+.main {
   overflow: hidden;
 }
 
@@ -153,8 +153,8 @@ html {
 .background .bgimg-top,
 .background .bgimg-bottom {
   position: absolute;
-  -webkit-animation: 2s circles forwards;
-          animation: 2s circles forwards;
+  -webkit-animation: 2s background forwards;
+          animation: 2s background forwards;
 }
 
 .background .bgimg-top {
@@ -171,7 +171,7 @@ html {
           transform: translate(-100px, -50px);
 }
 
-@-webkit-keyframes circles {
+@-webkit-keyframes background {
   0% {
     opacity: 0;
   }
@@ -182,7 +182,7 @@ html {
   }
 }
 
-@keyframes circles {
+@keyframes background {
   0% {
     opacity: 0;
   }
