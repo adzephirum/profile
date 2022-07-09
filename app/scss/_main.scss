@@ -110,20 +110,20 @@
   z-index: 10;
 }
 
-// @media (min-width: 1200px) {
-//   .bgimg-top,
-//   .bgimg-bottom {
-//     width: 60%;
-//     position: absolute;
-//   }
+@media (max-width: 480px) {
+  .background .bgimg-top,
+  .background .bgimg-bottom {
+    width: 60%;
+    position: absolute;
+  }
 
-//   .bgimg-top {
-//     top: -40%;
-//     left: -15%;
-//   }
+  .background .bgimg-top {
+    top: -40%;
+    left: -15%;
+  }
 
-//   .bgimg-bottom {
-//     top: 60%;
-//     left: 50%;
-//   }
-// }
+  .background .bgimg-bottom {
+    top: 60%;
+    left: 50%;
+  }
+}
