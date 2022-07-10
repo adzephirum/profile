@@ -225,12 +225,12 @@ html {
 @media (max-width: 480px) {
   .background .bgimg-top,
   .background .bgimg-bottom {
-    width: 60%;
+    width: 100%;
     position: absolute;
   }
   .background .bgimg-top {
-    top: -40%;
-    left: -15%;
+    top: -25%;
+    left: -50%;
   }
   .background .bgimg-bottom {
     top: 60%;
