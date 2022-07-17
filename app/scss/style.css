@@ -236,5 +236,21 @@ html {
     top: 65%;
     left: 50%;
   }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+  .attribution {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background: none;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
