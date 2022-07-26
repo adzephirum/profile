@@ -93,8 +93,16 @@
     transform: translateY(100%);
     transition: 0.4s;
     padding: 20px;
-    background: white;
+    background: none;
     text-align: center;
+  }
+
+  .attribution-text {
+    background: white;
+    width: 600px;
+    padding: 8px;
+    align-items: center;
+    border-radius: 8px;
   }
 
   .attribution:hover {

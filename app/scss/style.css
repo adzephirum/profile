@@ -204,8 +204,17 @@ html {
     -webkit-transition: 0.4s;
     transition: 0.4s;
     padding: 20px;
-    background: white;
+    background: none;
     text-align: center;
+  }
+  .attribution-text {
+    background: white;
+    width: 600px;
+    padding: 8px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 8px;
   }
   .attribution:hover {
     -webkit-transform: translateY(0);
