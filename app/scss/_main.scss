@@ -95,10 +95,13 @@
     padding: 20px;
     background: none;
     // text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   .attribution-text {
-    position: absolute;
+    // position: absolute;
+    margin-bottom: 15px;
     bottom: 0;
     left: 0;
     background: white;
@@ -107,7 +110,7 @@
     align-items: center;
     border-radius: 8px;
     text-align: center;
-    margin: 0 auto;
+    // margin: 0 auto;
   }
 
   .attribution:hover {

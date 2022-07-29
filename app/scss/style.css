@@ -204,9 +204,15 @@ html {
     transition: 0.4s;
     padding: 20px;
     background: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .attribution-text {
-    position: absolute;
+    margin-bottom: 15px;
     bottom: 0;
     left: 0;
     background: white;
@@ -217,7 +223,6 @@ html {
             align-items: center;
     border-radius: 8px;
     text-align: center;
-    margin: 0 auto;
   }
   .attribution:hover {
     -webkit-transform: translateY(0);
