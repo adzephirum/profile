@@ -202,7 +202,6 @@ html {
             transform: translateY(100%);
     -webkit-transition: 0.4s;
     transition: 0.4s;
-    padding: 20px;
     background: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -213,8 +212,6 @@ html {
   }
   .attribution-text {
     margin-bottom: 15px;
-    bottom: 0;
-    left: 0;
     background: white;
     width: 600px;
     padding: 8px;
