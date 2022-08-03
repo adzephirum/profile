@@ -220,6 +220,8 @@ html {
             align-items: center;
     border-radius: 8px;
     text-align: center;
+    -webkit-box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
   }
   .attribution:hover {
     -webkit-transform: translateY(0);
