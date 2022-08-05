@@ -163,4 +163,12 @@
     background: none;
     text-align: center;
   }
+
+  .attribution-text {
+    background: white;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
+  }
 }
