@@ -223,6 +223,9 @@ html {
     -webkit-box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
             box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
   }
+  .mobile-break {
+    display: none;
+  }
   .attribution:hover {
     -webkit-transform: translateY(0);
             transform: translateY(0);
