@@ -166,10 +166,12 @@
     width: 100%;
     padding: 5px;
     background: none;
-    text-align: center;
+    // text-align: center;
   }
 
   .attribution-text {
+    margin-left: auto;
+    margin-right: auto;
     background: white;
     align-items: center;
     width: 21.875rem;
