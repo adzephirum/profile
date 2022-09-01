@@ -20,7 +20,7 @@ html {
 }
 
 .container {
-  height: calc(100vh - 52.8px);
+  height: calc(100vh - 3.3rem);
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,8 +59,8 @@ html {
           justify-content: space-between;
   border-radius: 1.25rem;
   overflow: hidden;
-  -webkit-box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0.9375rem 1.25rem 0.9375rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.9375rem 1.25rem 0.9375rem rgba(0, 0, 0, 0.15);
   -webkit-transition: 300ms linear;
   transition: 300ms linear;
 }
@@ -158,17 +158,17 @@ html {
 }
 
 .background .bgimg-top {
-  top: -480px;
-  left: -40px;
-  -webkit-transform: translate(-100px, -50px);
-          transform: translate(-100px, -50px);
+  top: -30rem;
+  left: -2.5rem;
+  -webkit-transform: translate(-6.25rem, 3.125rem);
+          transform: translate(-6.25rem, 3.125rem);
 }
 
 .background .bgimg-bottom {
-  bottom: -470px;
-  right: -30px;
-  -webkit-transform: translate(100px, 50px);
-          transform: translate(100px, 50px);
+  bottom: -29.375rem;
+  right: -1.875rem;
+  -webkit-transform: translate(6.25rem, 3.125rem);
+          transform: translate(6.25rem, 3.125rem);
 }
 
 @-webkit-keyframes background {
@@ -193,7 +193,7 @@ html {
   }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 30rem) {
   .attribution {
     bottom: 0;
     left: 0;
@@ -211,17 +211,17 @@ html {
             justify-content: center;
   }
   .attribution-text {
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
     background: white;
-    width: 600px;
-    padding: 8px;
+    width: 37.5rem;
+    padding: 0.5rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     text-align: center;
-    -webkit-box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
-            box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0.9375rem 1.25rem 0.9375rem rgba(0, 0, 0, 0.15);
+            box-shadow: 0 0.9375rem 1.25rem 0.9375rem rgba(0, 0, 0, 0.15);
   }
   .mobile-break {
     display: none;
@@ -233,7 +233,7 @@ html {
   .attribution:before {
     content: "";
     width: 100%;
-    height: 50px;
+    height: 3.125rem;
     position: absolute;
     bottom: 100%;
     left: 0;
@@ -241,7 +241,7 @@ html {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   .background .bgimg-top,
   .background .bgimg-bottom {
     width: 100%;
@@ -264,7 +264,7 @@ html {
   }
   .attribution {
     position: fixed;
-    bottom: 15px;
+    bottom: 0.9375rem;
     left: 0;
     width: 100%;
     background: none;
@@ -272,17 +272,17 @@ html {
   .attribution-text {
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 0.625rem;
+    padding-top: 0.625rem;
     background: white;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     width: 21.875rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     text-align: center;
-    -webkit-box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
-            box-shadow: 0 15px 20px 15px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0.9375rem 1.25rem 0.9375rem rgba(0, 0, 0, 0.15);
+            box-shadow: 0 0.9375rem 1.25rem 0.9375rem rgba(0, 0, 0, 0.15);
   }
 }
 /*# sourceMappingURL=style.css.map */
