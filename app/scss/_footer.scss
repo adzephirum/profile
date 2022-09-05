@@ -1,0 +1,23 @@
+@media (max-width: 30rem) {
+  .attribution {
+    position: fixed;
+    bottom: 0.9375rem;
+    left: 0;
+    width: 100%;
+
+    background: none;
+  }
+
+  .attribution-text {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.625rem;
+    padding-top: 0.625rem;
+    background: white;
+    align-items: center;
+    width: 21.875rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: 0 0.9375rem 1.25rem 0.9375rem rgba(0, 0, 0, 0.15);
+  }
+}
