@@ -81,7 +81,8 @@
     text-align: center;
     margin: 0;
     p {
-      color: hsl(227, 10%, 46%);
+      // color: hsl(227, 10%, 46%);
+      color: $greyBlue;
       font-size: 0.75rem;
       letter-spacing: 0.125rem;
       padding-top: 0.625rem;
